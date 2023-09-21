@@ -7,6 +7,8 @@ interface Todo {
   isCompleted: boolean;
 }
 
+// TODO: split app into components
+
 function App() {
   useEffect(() => {
     document.title = "React Todo App";
