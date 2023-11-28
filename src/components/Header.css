@@ -1,0 +1,47 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.header__input {
+    width: 93%;
+    border: none;
+    border-radius: 16px;
+    background: hsl(0, 0%, 9%);
+    padding: 8px;
+    color: hsl(0, 0%, 100%);
+    font-size: 1rem;
+    text-align: center;
+}
+
+.header__input:focus {
+    outline: none;
+}
+
+.header__button {
+    line-height: 50%;
+    border: none;
+    border-radius: 6px;
+    background: hsl(0, 0%, 95%);
+    font-size: 1.5rem;
+    color: hsl(0, 0%, 0%);
+    width: 28px;
+    height: 28px;
+}
+
+.header__button:hover {
+    background: hsl(0, 0%, 100%);
+}
+
+.header__button--add {
+    background: hsl(120, 100%, 50%);
+    color: hsl(0, 0%, 100%);
+    font-weight: bold;
+}
+
+.header__button--add:hover {
+    background: hsl(120, 100%, 60%);
+}

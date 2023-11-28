@@ -1,0 +1,13 @@
+:root {
+  background: hsl(0, 0%, 11%);
+}
+
+body {
+  font-family: sans-serif;
+  color: hsl(0, 0%, 100%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}

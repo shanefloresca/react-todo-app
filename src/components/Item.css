@@ -1,0 +1,47 @@
+.item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.item__checkbox {
+    width: 16px;
+    height: 16px;
+}
+
+.item__input {
+    width: 90%;
+    border: none;
+    background: none;
+    color: hsl(0, 0%, 100%);
+    text-align: center;
+    font-size: 1rem;
+}
+
+.item__input:focus {
+    outline: none;
+}
+
+.item__input--line-through {
+    text-decoration: line-through;
+}
+
+.item__button {
+    border: none;
+    background: none;
+    color: #fff;
+}
+
+.item__button--delete {
+    line-height: 50%;
+    border-radius: 4px;
+    background: hsl(0, 100%, 50%);
+    font-weight: bold;
+    width: 16px;
+    height: 16px;
+}
+
+.item__button--delete:hover {
+    background: hsl(0, 100%, 60%);
+}
